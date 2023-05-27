@@ -1,0 +1,2 @@
+server-data/resources/[mapas]/dp/stream/stream.rar filter=lfs diff=lfs merge=lfs -text
+server-data/resources/[scripts]/loadingscreen/nui/video/video.mp4 filter=lfs diff=lfs merge=lfs -text
