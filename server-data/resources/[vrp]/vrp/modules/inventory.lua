@@ -639,7 +639,6 @@ vehs.vehglobal = {
 	["sheava"] = { ['name'] = "sheava", ['price'] = 800000, ['tipo'] = "carros",  ['hash'] = GetHashKey("sheava"), ['banned'] = false },
 	["thrax"] = { ['name'] = "thrax", ['price'] = 1000000, ['tipo'] = "carros",  ['hash'] = GetHashKey("thrax"), ['banned'] = false },
 	["zorrusso"] = { ['name'] = "zorrusso", ['price'] = 1300000, ['tipo'] = "carros",  ['hash'] = GetHashKey("zorrusso"), ['banned'] = false },
-
 	["WRsubaru"] = { ['name'] = "WRsubaru", ['price'] = 1300000, ['tipo'] = "carros",  ['hash'] = GetHashKey("WRsubaru"), ['banned'] = false },
 	["WRa45"] = { ['name'] = "WRa45", ['price'] = 1300000, ['tipo'] = "carros",  ['hash'] = GetHashKey("WRa45"), ['banned'] = false },
 	["WRbmwx6"] = { ['name'] = "WRbmwx6", ['price'] = 1300000, ['tipo'] = "carros",  ['hash'] = GetHashKey("WRbmwx6"), ['banned'] = false },
@@ -647,6 +646,8 @@ vehs.vehglobal = {
 	["WRclassxv2"] = { ['name'] = "WRclassxv2", ['price'] = 1300000, ['tipo'] = "carros",  ['hash'] = GetHashKey("WRclassxv2"), ['banned'] = false },
 	["WRr1200"] = { ['name'] = "WRr1200", ['price'] = 1300000, ['tipo'] = "carros",  ['hash'] = GetHashKey("WRr1200"), ['banned'] = false },
 	["WRtiger900"] = { ['name'] = "WRtiger900", ['price'] = 1300000, ['tipo'] = "carros",  ['hash'] = GetHashKey("WRtiger900"), ['banned'] = false },
+
+}
 
 function vRP.save_idle_custom(player,custom)
 	local r_idle = {}

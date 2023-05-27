@@ -647,792 +647,792 @@ cfg.groups = {
 		"tribunal.permissao",
 		"paisanapoliciapc.delegado"
 	},
-	-- ---------------------------------------------------
-	-- ["PRF1Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"prf.permissao",
-	-- 	"prf.terceira",
-	-- 	"carroprf.permissao",
-	-- 	"tribunal.permissao",
-	-- 	"salarioprf.primeira",
-	-- 	"policiaheli.permissao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["PRF1"] = {
-	-- 	_config = {
-	-- 		title = "PRF - Terceira Classe",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanaprf.terceira"
-	-- },
-	-- ---------------------------------------------------
-	-- ["PRF2Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"prf.permissao",
-	-- 	"prf.segunda",
-	-- 	"tribunal.permissao",
-	-- 	"carroprf.permissao",
-	-- 	"salarioprf.segunda",
-	-- 	"policiaheli.permissao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["PRF2"] = {
-	-- 	_config = {
-	-- 		title = "PRF - Segunda Classe",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanaprf.segunda"
-	-- },
-	-- ---------------------------------------------------
-	-- ["PRF3Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"prf.permissao",
-	-- 	"carroprf.permissao",
-	-- 	"prf.primeira",
-	-- 	"tribunal.permissao",
-	-- 	"salarioprf.primeira",
-	-- 	"policiaheli.permissao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["PRF3"] = {
-	-- 	_config = {
-	-- 		title = "PRF - Primeira Classe",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanaprf.primeira"
-	-- },
-	-- ---------------------------------------------------
-	-- ["PRF4Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"prf.permissao",
-	-- 	"carroprf.permissao",
-	-- 	"prf.especial",
-	-- 	"tribunal.permissao",
-	-- 	"salarioprf.especial",
-	-- 	"policiaheli.permissao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["PRF4"] = {
-	-- 	_config = {
-	-- 		title = "PRF - Especial",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanaprf.especial"
-	-- },
-	-- ---------------------------------------------------
-	-- ["FT1Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"carroft.permissao",
-	-- 	"recom.soldado",
-	-- 	"salarioft.soldado",
-	-- 	"tribunal.permissao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT1"] = {
-	-- 	_config = {
-	-- 		title = "FT Soldado",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.soldado"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["FT2Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"recom.cabo",
-	-- 	"tribunal.permissao",
-	-- 	"carroft.permissao",
-	-- 	"salarioft.cabo",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT2"] = {
-	-- 	_config = {
-	-- 		title = "FT Cabo",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.cabo"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["FT3Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"tribunal.permissao",
-	-- 	"ft.permissao",
-	-- 	"recom.sargento",
-	-- 	"carroft.permissao",
-	-- 	"salarioft.sargento",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT3"] = {
-	-- 	_config = {
-	-- 		title = "FT Sargento",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.sargento"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["FT4Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"carroft.permissao",
-	-- 	"recom.tenente",
-	-- 	"tribunal.permissao",
-	-- 	"salarioft.subtenente",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT4"] = {
-	-- 	_config = {
-	-- 		title = "FT Sub-Tenente",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.subtenente"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["FT5Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"carroft.permissao",
-	-- 	"recom.tenente",
-	-- 	"tribunal.permissao",
-	-- 	"salarioft.tenente",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT5"] = {
-	-- 	_config = {
-	-- 		title = "FT Tenente",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.tenente"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["FT6Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"tribunal.permissao",
-	-- 	"recom.capitao",
-	-- 	"carroft.permissao",
-	-- 	"salarioft.capitao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT6"] = {
-	-- 	_config = {
-	-- 		title = "FT Capitão",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.capitao"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["FT7Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"tribunal.permissao",
-	-- 	"carroft.permissao",
-	-- 	"recom.major",
-	-- 	"salarioft.major",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT7"] = {
-	-- 	_config = {
-	-- 		title = "FT Major",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.major"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["FT8Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"recom.coronel",
-	-- 	"tribunal.permissao",
-	-- 	"carroft.permissao",
-	-- 	"salarioft.tencoronel",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT8"] = {
-	-- 	_config = {
-	-- 		title = "FT Ten-Coronel",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.tencoronel"
-	-- },
-	-- ["FT9Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"ft.permissao",
-	-- 	"recom.coronel",
-	-- 	"tribunal.permissao",
-	-- 	"carroft.permissao",
-	-- 	"salarioft.coronel",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["FT9"] = {
-	-- 	_config = {
-	-- 		title = "FT Coronel",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.coronel"
-	-- },
-	-- ---------------------------------------------------
-	-- 	---------------------------------------------------
-	-- 		---------------------------------------------------
-	-- ["BAEP1Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"carrobaep.permissao",
-	-- 	"recom.soldado",
-	-- 	"salariobaep.soldado",
-	-- 	"tribunal.permissao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP1"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Soldado",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.soldado"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["BAEP2Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"recom.cabo",
-	-- 	"tribunal.permissao",
-	-- 	"carrobaep.permissao",
-	-- 	"salariobaep.cabo",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP2"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Cabo",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.cabo"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["BAEP3Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"tribunal.permissao",
-	-- 	"baep.permissao",
-	-- 	"recom.sargento",
-	-- 	"carrobaep.permissao",
-	-- 	"salariobaep.sargento",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP3"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Sargento",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.sargento"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["BAEP4Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"carrobaep.permissao",
-	-- 	"recom.tenente",
-	-- 	"tribunal.permissao",
-	-- 	"salariobaep.subtenente",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP4"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Sub-Tenente",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.subtenente"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["BAEP5Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"carrobaep.permissao",
-	-- 	"recom.tenente",
-	-- 	"tribunal.permissao",
-	-- 	"salariobaep.tenente",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP5"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Tenente",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.tenente"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["BAEP6Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"tribunal.permissao",
-	-- 	"recom.capitao",
-	-- 	"carrobaep.permissao",
-	-- 	"salariobaep.capitao",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP6"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Capitão",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.capitao"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["BAEP7Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"tribunal.permissao",
-	-- 	"carrobaep.permissao",
-	-- 	"recom.major",
-	-- 	"salariobaep.major",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP7"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Major",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.major"
-	-- },
-	-- ---------------------------------------------------	
-	-- ["BAEP8Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"recom.coronel",
-	-- 	"tribunal.permissao",
-	-- 	"carrobaep.permissao",
-	-- 	"salariobaep.tencoronel",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP8"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Ten-Coronel",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.tencoronel"
-	-- },
-	-- ["BAEP9Paycheck"] = {
-	-- 	_config = {
-	-- 	},
-	-- 	"policia.permissao",
-	-- 	"baep.permissao",
-	-- 	"recom.coronel",
-	-- 	"tribunal.permissao",
-	-- 	"carrobaep.permissao",
-	-- 	"salariobaep.coronel",
-	-- 	"polpar.permissao"
-	-- },
-	-- ["BAEP9"] = {
-	-- 	_config = {
-	-- 		title = "BAEP Coronel",
-	-- 		gtype = "job"
-	-- 	},
-	-- 	"tribunal.permissao",
-	-- 	"paisanapoliciarecom.coronel"
-	-- },
-	-- -------	---------------------------------------------------	
---------------------------------------------	
--- 	["ROTA1Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"tribunal.permissao",
--- 		"bope.soldado",
--- 		"carrorota.permissao",
--- 		"rota.permissao",
--- 		"salariorota.soldado",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA1"] = {
--- 		_config = {
--- 			title = "ROTA Soldado",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.soldado"
--- 	},
--- 	---------------------------------------------------
--- 	["ROTA2Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.cabo",
--- 		"carrorota.permissao",
--- 		"tribunal.permissao",
--- 		"rota.permissao",
--- 		"salariorota.cabo",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA2"] = {
--- 		_config = {
--- 			title = "ROTA Cabo",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.cabo"
--- 	},
--- 	---------------------------------------------------
--- 	["ROTA3Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.sargento",
--- 		"carrorota.permissao",
--- 		"tribunal.permissao",
--- 		"rota.permissao",
--- 		"salariorota.sargento",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA3"] = {
--- 		_config = {
--- 			title = "ROTA Sargento",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.sargento"
--- 	},
--- 	---------------------------------------------------
--- 	["ROTA4Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.tenente",
--- 		"rota.permissao",
--- 		"tribunal.permissao",
--- 		"carrorota.permissao",
--- 		"salariorota.subtenente",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA4"] = {
--- 		_config = {
--- 			title = "ROTA Sub-Tenente",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.subtenente"
--- 	},
+	---------------------------------------------------
+	["PRF1Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"prf.permissao",
+		"prf.terceira",
+		"carroprf.permissao",
+		"tribunal.permissao",
+		"salarioprf.primeira",
+		"policiaheli.permissao",
+		"polpar.permissao"
+	},
+	["PRF1"] = {
+		_config = {
+			title = "PRF - Terceira Classe",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanaprf.terceira"
+	},
+	---------------------------------------------------
+	["PRF2Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"prf.permissao",
+		"prf.segunda",
+		"tribunal.permissao",
+		"carroprf.permissao",
+		"salarioprf.segunda",
+		"policiaheli.permissao",
+		"polpar.permissao"
+	},
+	["PRF2"] = {
+		_config = {
+			title = "PRF - Segunda Classe",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanaprf.segunda"
+	},
+	---------------------------------------------------
+	["PRF3Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"prf.permissao",
+		"carroprf.permissao",
+		"prf.primeira",
+		"tribunal.permissao",
+		"salarioprf.primeira",
+		"policiaheli.permissao",
+		"polpar.permissao"
+	},
+	["PRF3"] = {
+		_config = {
+			title = "PRF - Primeira Classe",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanaprf.primeira"
+	},
+	---------------------------------------------------
+	["PRF4Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"prf.permissao",
+		"carroprf.permissao",
+		"prf.especial",
+		"tribunal.permissao",
+		"salarioprf.especial",
+		"policiaheli.permissao",
+		"polpar.permissao"
+	},
+	["PRF4"] = {
+		_config = {
+			title = "PRF - Especial",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanaprf.especial"
+	},
+	---------------------------------------------------
+	["FT1Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"carroft.permissao",
+		"recom.soldado",
+		"salarioft.soldado",
+		"tribunal.permissao",
+		"polpar.permissao"
+	},
+	["FT1"] = {
+		_config = {
+			title = "FT Soldado",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.soldado"
+	},
+	---------------------------------------------------	
+	["FT2Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"recom.cabo",
+		"tribunal.permissao",
+		"carroft.permissao",
+		"salarioft.cabo",
+		"polpar.permissao"
+	},
+	["FT2"] = {
+		_config = {
+			title = "FT Cabo",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.cabo"
+	},
+	---------------------------------------------------	
+	["FT3Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"tribunal.permissao",
+		"ft.permissao",
+		"recom.sargento",
+		"carroft.permissao",
+		"salarioft.sargento",
+		"polpar.permissao"
+	},
+	["FT3"] = {
+		_config = {
+			title = "FT Sargento",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.sargento"
+	},
+	---------------------------------------------------	
+	["FT4Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"carroft.permissao",
+		"recom.tenente",
+		"tribunal.permissao",
+		"salarioft.subtenente",
+		"polpar.permissao"
+	},
+	["FT4"] = {
+		_config = {
+			title = "FT Sub-Tenente",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.subtenente"
+	},
+	---------------------------------------------------	
+	["FT5Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"carroft.permissao",
+		"recom.tenente",
+		"tribunal.permissao",
+		"salarioft.tenente",
+		"polpar.permissao"
+	},
+	["FT5"] = {
+		_config = {
+			title = "FT Tenente",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.tenente"
+	},
+	---------------------------------------------------	
+	["FT6Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"tribunal.permissao",
+		"recom.capitao",
+		"carroft.permissao",
+		"salarioft.capitao",
+		"polpar.permissao"
+	},
+	["FT6"] = {
+		_config = {
+			title = "FT Capitão",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.capitao"
+	},
+	---------------------------------------------------	
+	["FT7Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"tribunal.permissao",
+		"carroft.permissao",
+		"recom.major",
+		"salarioft.major",
+		"polpar.permissao"
+	},
+	["FT7"] = {
+		_config = {
+			title = "FT Major",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.major"
+	},
+	---------------------------------------------------	
+	["FT8Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"recom.coronel",
+		"tribunal.permissao",
+		"carroft.permissao",
+		"salarioft.tencoronel",
+		"polpar.permissao"
+	},
+	["FT8"] = {
+		_config = {
+			title = "FT Ten-Coronel",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.tencoronel"
+	},
+	["FT9Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"ft.permissao",
+		"recom.coronel",
+		"tribunal.permissao",
+		"carroft.permissao",
+		"salarioft.coronel",
+		"polpar.permissao"
+	},
+	["FT9"] = {
+		_config = {
+			title = "FT Coronel",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.coronel"
+	},
+	---------------------------------------------------
+		---------------------------------------------------
+			---------------------------------------------------
+	["BAEP1Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"carrobaep.permissao",
+		"recom.soldado",
+		"salariobaep.soldado",
+		"tribunal.permissao",
+		"polpar.permissao"
+	},
+	["BAEP1"] = {
+		_config = {
+			title = "BAEP Soldado",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.soldado"
+	},
+	---------------------------------------------------	
+	["BAEP2Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"recom.cabo",
+		"tribunal.permissao",
+		"carrobaep.permissao",
+		"salariobaep.cabo",
+		"polpar.permissao"
+	},
+	["BAEP2"] = {
+		_config = {
+			title = "BAEP Cabo",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.cabo"
+	},
+	---------------------------------------------------	
+	["BAEP3Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"tribunal.permissao",
+		"baep.permissao",
+		"recom.sargento",
+		"carrobaep.permissao",
+		"salariobaep.sargento",
+		"polpar.permissao"
+	},
+	["BAEP3"] = {
+		_config = {
+			title = "BAEP Sargento",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.sargento"
+	},
+	---------------------------------------------------	
+	["BAEP4Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"carrobaep.permissao",
+		"recom.tenente",
+		"tribunal.permissao",
+		"salariobaep.subtenente",
+		"polpar.permissao"
+	},
+	["BAEP4"] = {
+		_config = {
+			title = "BAEP Sub-Tenente",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.subtenente"
+	},
+	---------------------------------------------------	
+	["BAEP5Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"carrobaep.permissao",
+		"recom.tenente",
+		"tribunal.permissao",
+		"salariobaep.tenente",
+		"polpar.permissao"
+	},
+	["BAEP5"] = {
+		_config = {
+			title = "BAEP Tenente",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.tenente"
+	},
+	---------------------------------------------------	
+	["BAEP6Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"tribunal.permissao",
+		"recom.capitao",
+		"carrobaep.permissao",
+		"salariobaep.capitao",
+		"polpar.permissao"
+	},
+	["BAEP6"] = {
+		_config = {
+			title = "BAEP Capitão",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.capitao"
+	},
+	---------------------------------------------------	
+	["BAEP7Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"tribunal.permissao",
+		"carrobaep.permissao",
+		"recom.major",
+		"salariobaep.major",
+		"polpar.permissao"
+	},
+	["BAEP7"] = {
+		_config = {
+			title = "BAEP Major",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.major"
+	},
+	---------------------------------------------------	
+	["BAEP8Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"recom.coronel",
+		"tribunal.permissao",
+		"carrobaep.permissao",
+		"salariobaep.tencoronel",
+		"polpar.permissao"
+	},
+	["BAEP8"] = {
+		_config = {
+			title = "BAEP Ten-Coronel",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.tencoronel"
+	},
+	["BAEP9Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"baep.permissao",
+		"recom.coronel",
+		"tribunal.permissao",
+		"carrobaep.permissao",
+		"salariobaep.coronel",
+		"polpar.permissao"
+	},
+	["BAEP9"] = {
+		_config = {
+			title = "BAEP Coronel",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciarecom.coronel"
+	},
+	-------	---------------------------------------------------	
+------------------------------------------	
+	["ROTA1Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"tribunal.permissao",
+		"bope.soldado",
+		"carrorota.permissao",
+		"rota.permissao",
+		"salariorota.soldado",
+		"polpar.permissao"
+	},
+	["ROTA1"] = {
+		_config = {
+			title = "ROTA Soldado",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.soldado"
+	},
+	---------------------------------------------------
+	["ROTA2Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.cabo",
+		"carrorota.permissao",
+		"tribunal.permissao",
+		"rota.permissao",
+		"salariorota.cabo",
+		"polpar.permissao"
+	},
+	["ROTA2"] = {
+		_config = {
+			title = "ROTA Cabo",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.cabo"
+	},
+	---------------------------------------------------
+	["ROTA3Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.sargento",
+		"carrorota.permissao",
+		"tribunal.permissao",
+		"rota.permissao",
+		"salariorota.sargento",
+		"polpar.permissao"
+	},
+	["ROTA3"] = {
+		_config = {
+			title = "ROTA Sargento",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.sargento"
+	},
+	---------------------------------------------------
+	["ROTA4Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.tenente",
+		"rota.permissao",
+		"tribunal.permissao",
+		"carrorota.permissao",
+		"salariorota.subtenente",
+		"polpar.permissao"
+	},
+	["ROTA4"] = {
+		_config = {
+			title = "ROTA Sub-Tenente",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.subtenente"
+	},
 
--- 	["ROTA5Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.tenente",
--- 		"rota.permissao",
--- 		"tribunal.permissao",
--- 		"carrorota.permissao",
--- 		"salariorota.tenente",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA5"] = {
--- 		_config = {
--- 			title = "ROTA Tenente",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.tenente"
--- 	},
--- 	---------------------------------------------------
--- 	["ROTA6Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.capitao",
--- 		"carrorota.permissao",
--- 		"tribunal.permissao",
--- 		"salariorota.capitao",
--- 		"rota.permissao",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA6"] = {
--- 		_config = {
--- 			title = "ROTA Capitão",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.capitao"
--- 	},
--- 	---------------------------------------------------
--- 	["ROTA7Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.major",
--- 		"salariorota.major",
--- 		"tribunal.permissao",
--- 		"rota.permissao",
--- 		"carrorota.permissao",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA7"] = {
--- 		_config = {
--- 			title = "ROTA Major",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.major"
--- 	},
--- 	---------------------------------------------------
--- 	["ROTA8Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.coronel",
--- 		"carrorota.permissao",
--- 		"tribunal.permissao",
--- 		"rota.permissao",
--- 		"salariorota.tencoronel",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA8"] = {
--- 		_config = {
--- 			title = "ROTA Ten-Coronel",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.tencoronel"
--- 	},
--- 	---------------------------------------------------
--- 	["ROTA9Paycheck"] = {
--- 		_config = {
--- 		},
--- 		"policia.permissao",
--- 		"bope.coronel",
--- 		"carrorota.permissao",
--- 		"tribunal.permissao",
--- 		"rota.permissao",
--- 		"salariorota.coronel",
--- 		"polpar.permissao"
--- 	},
--- 	["ROTA9"] = {
--- 		_config = {
--- 			title = "ROTA Coronel",
--- 			gtype = "job"
--- 		},
--- 		"tribunal.permissao",
--- 		"paisanapoliciabope.coronel"
--- 	},
--- 	---------------------------------------------------
--- ---------------------------------------------------
--- ["EB1Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.soldado",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.soldado",
--- 	"polpar.permissao"
--- },
--- ["EB1"] = {
--- 	_config = {
--- 		title = "Exército Soldado",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.soldado"
--- },
--- ---------------------------------------------------
--- ["EB2Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.cabo",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.cabo",
--- 	"polpar.permissao"
--- },
--- ["EB2"] = {
--- 	_config = {
--- 		title = "Exército Cabo",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.cabo"
--- },
--- ---------------------------------------------------
--- ["EB3Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.sargento",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.sargento",
--- 	"polpar.permissao"
--- },
--- ["EB3"] = {
--- 	_config = {
--- 		title = "Exército Sargento",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.sargento"
--- },
--- ---------------------------------------------------
--- ["EB4Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.subtenente",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.subtenente",
--- 	"polpar.permissao"
--- },
--- ["EB4"] = {
--- 	_config = {
--- 		title = "Exército Sub-Tenente",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.subtenente"
--- },
--- ---------------------------------------------------
--- ["EB5Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.tenente",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.tenente",
--- 	"polpar.permissao"
--- },
--- ["EB5"] = {
--- 	_config = {
--- 		title = "Exército Tenente",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.tenente"
--- },
--- ---------------------------------------------------
--- ["EB6Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.capitao",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.capitao",
--- 	"polpar.permissao"
--- },
--- ["EB6"] = {
--- 	_config = {
--- 		title = "Exército Capitão",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.capitao"
--- },
--- ---------------------------------------------------
--- ["EB7Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.major",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.major",
--- 	"polpar.permissao"
--- },
--- ["EB7"] = {
--- 	_config = {
--- 		title = "Exército Major",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.major"
--- },
--- ---------------------------------------------------
--- ["EB8Paycheck"] = {
--- 	_config = {
--- 	},
--- 	"policia.permissao",
--- 	"tribunal.permissao",
--- 	"eb.coronel",
--- 	"carroeb.permissao",
--- 	"exercito.permissao",
--- 	"salarioeb.coronel",
--- 	"polpar.permissao"
--- },
--- ["EB8"] = {
--- 	_config = {
--- 		title = "Exército Coronel",
--- 		gtype = "job"
--- 	},
--- 	"tribunal.permissao",
--- 	"paisanapoliciaeb.coronel"
--- },
+	["ROTA5Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.tenente",
+		"rota.permissao",
+		"tribunal.permissao",
+		"carrorota.permissao",
+		"salariorota.tenente",
+		"polpar.permissao"
+	},
+	["ROTA5"] = {
+		_config = {
+			title = "ROTA Tenente",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.tenente"
+	},
+	---------------------------------------------------
+	["ROTA6Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.capitao",
+		"carrorota.permissao",
+		"tribunal.permissao",
+		"salariorota.capitao",
+		"rota.permissao",
+		"polpar.permissao"
+	},
+	["ROTA6"] = {
+		_config = {
+			title = "ROTA Capitão",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.capitao"
+	},
+	---------------------------------------------------
+	["ROTA7Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.major",
+		"salariorota.major",
+		"tribunal.permissao",
+		"rota.permissao",
+		"carrorota.permissao",
+		"polpar.permissao"
+	},
+	["ROTA7"] = {
+		_config = {
+			title = "ROTA Major",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.major"
+	},
+	---------------------------------------------------
+	["ROTA8Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.coronel",
+		"carrorota.permissao",
+		"tribunal.permissao",
+		"rota.permissao",
+		"salariorota.tencoronel",
+		"polpar.permissao"
+	},
+	["ROTA8"] = {
+		_config = {
+			title = "ROTA Ten-Coronel",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.tencoronel"
+	},
+	---------------------------------------------------
+	["ROTA9Paycheck"] = {
+		_config = {
+		},
+		"policia.permissao",
+		"bope.coronel",
+		"carrorota.permissao",
+		"tribunal.permissao",
+		"rota.permissao",
+		"salariorota.coronel",
+		"polpar.permissao"
+	},
+	["ROTA9"] = {
+		_config = {
+			title = "ROTA Coronel",
+			gtype = "job"
+		},
+		"tribunal.permissao",
+		"paisanapoliciabope.coronel"
+	},
+	---------------------------------------------------
+---------------------------------------------------
+["EB1Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.soldado",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.soldado",
+	"polpar.permissao"
+},
+["EB1"] = {
+	_config = {
+		title = "Exército Soldado",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.soldado"
+},
+---------------------------------------------------
+["EB2Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.cabo",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.cabo",
+	"polpar.permissao"
+},
+["EB2"] = {
+	_config = {
+		title = "Exército Cabo",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.cabo"
+},
+---------------------------------------------------
+["EB3Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.sargento",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.sargento",
+	"polpar.permissao"
+},
+["EB3"] = {
+	_config = {
+		title = "Exército Sargento",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.sargento"
+},
+---------------------------------------------------
+["EB4Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.subtenente",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.subtenente",
+	"polpar.permissao"
+},
+["EB4"] = {
+	_config = {
+		title = "Exército Sub-Tenente",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.subtenente"
+},
+---------------------------------------------------
+["EB5Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.tenente",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.tenente",
+	"polpar.permissao"
+},
+["EB5"] = {
+	_config = {
+		title = "Exército Tenente",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.tenente"
+},
+---------------------------------------------------
+["EB6Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.capitao",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.capitao",
+	"polpar.permissao"
+},
+["EB6"] = {
+	_config = {
+		title = "Exército Capitão",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.capitao"
+},
+---------------------------------------------------
+["EB7Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.major",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.major",
+	"polpar.permissao"
+},
+["EB7"] = {
+	_config = {
+		title = "Exército Major",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.major"
+},
+---------------------------------------------------
+["EB8Paycheck"] = {
+	_config = {
+	},
+	"policia.permissao",
+	"tribunal.permissao",
+	"eb.coronel",
+	"carroeb.permissao",
+	"exercito.permissao",
+	"salarioeb.coronel",
+	"polpar.permissao"
+},
+["EB8"] = {
+	_config = {
+		title = "Exército Coronel",
+		gtype = "job"
+	},
+	"tribunal.permissao",
+	"paisanapoliciaeb.coronel"
+},
 
 	---------------------------------------------------
 	-- SAMU / SAÚDE  
