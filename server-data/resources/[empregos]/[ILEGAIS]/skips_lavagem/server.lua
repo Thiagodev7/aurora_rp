@@ -20,25 +20,33 @@ function emP.checkDinheiro()
     local source = source
     local user_id = vRP.getUserId(source)
     if user_id then
-        dinheirosujo = vRP.prompt(source, "Quanto dinheiro sujo deseja lavar?", "")
+        -- Verificar se o jogador tem os 3 alvejantes no inventário
+        if vRP.getInventoryItemAmount(user_id, "alvejante") >= 3 then
+            dinheirosujo = vRP.prompt(source, "Quanto dinheiro sujo deseja lavar?", "")
 
-        if tonumber(dinheirosujo) == nil then
-            TriggerClientEvent("Notify",source,"negado","Você não informou qual valor deseja!")
-            return false
-        end
-
-        if tonumber(dinheirosujo) <= lavagemTotal then
-            if vRP.tryGetInventoryItem(user_id,"dinheirosujo",dinheirosujo) then -- Retirar dinheiro sujo do inventario
-                valorDinheiroSujo = dinheirosujo
-                return true
-            else
-                TriggerClientEvent("Notify",source,"negado","Dinheiro sujo <b>insuficiente</b>.")
+            if tonumber(dinheirosujo) == nil then
+                TriggerClientEvent("Notify", source, "negado", "Você não informou qual valor deseja!")
                 return false
             end
-        else
-            TriggerClientEvent("Notify",source,"negado","Você só pode lavar R$"..lavagemTotal.." por vez")
-        end
 
+            if tonumber(dinheirosujo) <= lavagemTotal then
+                if vRP.tryGetInventoryItem(user_id, "dinheirosujo", dinheirosujo) then -- Retirar dinheiro sujo do inventário
+                    -- Remover os 3 alvejantes do inventário
+                    vRP.tryGetInventoryItem(user_id, "alvejante", 3)
+                    
+                    valorDinheiroSujo = dinheirosujo
+                    return true
+                else
+                    TriggerClientEvent("Notify", source, "negado", "Dinheiro sujo <b>insuficiente</b>.")
+                    return false
+                end
+            else
+                TriggerClientEvent("Notify", source, "negado", "Você só pode lavar R$"..lavagemTotal.." por vez")
+            end
+        else
+            TriggerClientEvent("Notify", source, "negado", "Você precisa de 3 alvejantes para lavar o dinheiro sujo.")
+            return false
+        end
     end
 end
 

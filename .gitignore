@@ -137,6 +137,7 @@ privates_config.lua
 *.ycd
 *.rar
 *.mp4
+*.rel
 
 *.ydd
 

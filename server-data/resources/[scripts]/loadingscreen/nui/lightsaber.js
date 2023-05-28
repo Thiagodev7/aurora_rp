@@ -1,40 +1,11 @@
 var playlist = [
 	{
-		"song"    : "FiveM Brasil",
+		"song"    : "Aurora_RP",
 		"album"   : "",
-		"artist"  : "Vulcaner",
+		"artist"  : "Aurora Group",
 		"artwork" : "",
 		"mp3"     : "audio/audio.mp3"
-    }, 
-	 {
-	 	"song"    : "Bala Azul",
-	 	"album"   : "",
-	 	"artist"  : "Mateca & Teto",
-	 	"artwork" : "",
-	 	"mp3"     : "audio/audio2.mp3"
-     }, 
- {
- 	"song"    : "Vim de lá",
- 	"album"   : "",
- 	"artist"  : "L7nnon",
- 	"artwork" : "",
- 	"mp3"     : "audio/audio3.mp3"
- }, 
- {
- 	"song"    : "Hino dos mlks",
- 	"album"   : "",
- 	"artist"  : "BIN,Mc Daniel, Orochi",
- 	"artwork" : "",
- 	"mp3"     : "audio/audio4.mp3"
- }, 
- {
- 	"song"    : "Tropa do Mais Novo",
- 	"album"   : "",
- 	"artist"  : "Chefin",
- 	"artwork" : "",
- 	"mp3"     : "audio/audio5.mp3"
- }	
-    
+    },     
 ];
 
 var rot = 0;
